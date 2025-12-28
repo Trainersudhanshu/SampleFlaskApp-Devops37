@@ -28,9 +28,9 @@ def create_app():
     @app.route('/test4')
     def test4():
         i = 1
-        for i > 10:
+        while i < 10:
             pass
-        return "test 1234"
+        return "test 1234
 
     return app
 
