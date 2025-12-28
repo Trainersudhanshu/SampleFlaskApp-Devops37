@@ -30,7 +30,7 @@ def create_app():
         i = 1
         while i < 10:
             pass
-        return "test 1234
+        return "test 1234"
 
     return app
 
