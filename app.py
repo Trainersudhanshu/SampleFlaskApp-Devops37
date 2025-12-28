@@ -25,7 +25,7 @@ def create_app():
     def test2():
         return "test 1234"
 
-     @app.route('/test4')
+    @app.route('/test4')
     def test4():
         i = 1
         for i > 10:
