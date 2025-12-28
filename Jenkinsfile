@@ -8,7 +8,7 @@ pipeline {
             steps{
                 sh "docker rm -f webos"
                 sh "docker pull jinny1/sampleflaskapp-devops37:latest"
-                sh "docker run -d -it --name webos jinny1/sampleflaskapp-devops37:latest"
+                sh "docker run -d -it --name webos -p 80:80 jinny1/sampleflaskapp-devops37:latest"
         }
         }
         stage("succesfull deployment"){ //job7
